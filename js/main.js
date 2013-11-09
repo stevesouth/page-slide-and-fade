@@ -50,10 +50,6 @@
 		};
 
 		Slide.prototype._initControls = function(element) {
-			var application = $(element).find(".application")[0];
-			Hammer(application).on("swipeleft", this.next.bind(this));
-			Hammer(application).on("swiperight", this.previous.bind(this));
-
 			$(element).find('.next').on("click", this.next.bind(this));
 			$(element).find('.previous').on("click",this.previous.bind(this));
 		};

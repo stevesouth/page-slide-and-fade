@@ -1,7 +1,7 @@
 page-slide-and-fade
 ===================
 
-Tiny utility to enable a nice slide, fade, scaling page animation a found in flipboard and other apps.
+Tiny utility to enable a nice slide, fade and scale page animation a found in flipboard and other apps. Only hardward accelerated transitions are used so it should all be nice and smooth even on mobile devices.
 
 ## Instant Demo
 

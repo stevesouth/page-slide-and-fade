@@ -3,6 +3,8 @@ page-slide-and-fade
 
 Tiny utility to enable a nice slide, fade and scale page animation a found in flipboard and other apps. Only hardward accelerated transitions are used so it should all be nice and smooth even on mobile devices.
 
+Tested and working well in chrome, firefox and IE11 on deskop, chrome, android browser (from 4.3), firefox mobile and safari on IOS7. For browsers that don't support 'transform' it should fall back to no transitions, this is a quick fix if anyone needs would like to use this in production.
+
 ## Instant Demo
 
 https://rawgithub.com/stevesouth/page-slide-and-fade/master/index.html

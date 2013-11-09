@@ -35,17 +35,17 @@
 		}
 
 		Slide.prototype._fadeOut = function(page) {
-			page.style.webkitTransform = "translate(0,0) scale(0.9,0.95) rotate(-3deg)";
+			page.style.webkitTransform = "translate(0,0) scale(0.95,0.95)";
 			page.style.opacity = "0.7";
 		};
 
 		Slide.prototype._show = function(page) {
-			page.style.webkitTransform = "translate(0,0) scale(1,1) rotate(0deg)";
+			page.style.webkitTransform = "translate(0,0) scale(1,1)";
 			page.style.opacity = "1";
 		};
 
 		Slide.prototype._hideRight = function(page) {
-			page.style.webkitTransform = "translate(100%,0) scale(1,1) rotate(0deg)";
+			page.style.webkitTransform = "translate(100%,0) scale(1,1)";
 			page.style.opacity = "0.9";
 		};
 

@@ -24,11 +24,16 @@ div{
 .navigation {
     height:60px;
     padding:10px;
+    background-color:#67b0d1;
 }
 
 .navigation button {
     width:40px;
     height:40px;
+    background-color:white;
+    border:1px solid #719ca5;
+    color:#3bbec0;
+    font-weight:bold;
 }
 
 .navigation button:nth-child(2) {
@@ -36,6 +41,7 @@ div{
 }
 
 .application {
+    font-size:50px;
     width:100%;
     height:calc(100% - 60px);
     position:relative;
@@ -52,4 +58,52 @@ div{
     left:0;
     -webkit-transition: all 0.5s cubic-bezier(0.215, 0.610, 0.355, 1.000);
     -webkit-transform: translate(0,0);
+    
+    padding-top:30px;
+    font-size:100px;
+    font-style:italic;
+    text-align:center;
+    text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3);
 }
+
+.page:nth-child(1) {
+    background-color:#4c9dc1;
+    color:#fff;
+}
+
+
+.page:nth-child(2) {
+    background-color:#ebc85e;
+    color:#fff;
+}
+
+
+.page:nth-child(3) {
+    background-color:#e87352;
+    color:#fff;
+}
+
+
+.page:nth-child(4) {
+    background-color:#4ad585;
+    color:#fff;
+}
+
+.page:nth-child(5) {
+    background-color:#319ba0;
+    color:#fff;
+}
+
+.page:nth-child(6) {
+    background-color:#4ad585;
+    color:#fff;
+}
+
+.page:nth-child(7) {
+    background-color:#939393;
+    color:#fff;
+}
+
+
+
+

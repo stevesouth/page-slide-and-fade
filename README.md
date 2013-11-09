@@ -3,6 +3,10 @@ page-slide-and-fade
 
 Tiny utility to enable a nice slide, fade, scaling page animation a found in flipboard and other apps.
 
+## Instant Demo
+
+http://htmlpreview.github.io/?https://github.com/stevesouth/page-slide-and-fade/blob/master/index.html
+
 ## To Use
 
 Simply clone the repo, index.html should work.

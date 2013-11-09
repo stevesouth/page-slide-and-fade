@@ -15,19 +15,35 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
 
+        <script>
+            $(function() {
+                window.slidex = new Slide(document.body);
+            });
+        </script>
+    </head>
+    <body>
+        
+
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+
+        <div class="navigation">
+                <button class="back">&lt;</button>
+                <button class="forward">&gt;</button>
+        </div>
+
+        <div class="application">
+                <div class="page">1</div>
+                <div class="page">2</div>
+                <div class="page">3</div>
+                <div class="page">4</div>
+                <div class="page">5</div>
+                <div class="page">6</div>
+                <div class="page">7</div>
+        </div>
     </body>
 </html>

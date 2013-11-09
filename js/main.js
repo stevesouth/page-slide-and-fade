@@ -50,13 +50,11 @@
 		};
 
 		Slide.prototype._initControls = function(element) {
-			$(element).find('.previous').on("click", function() {
-				this.previous();
-			}.bind(this));
+			Hammer(element).on("swipeleft", this.next.bind(this));
+			Hammer(element).on("swiperight", this.previous.bind(this));
 
-			$(element).find('.next').on("click", function() {
-				this.next();
-			}.bind(this));
+			$(element).find('.next').on("click", this.next.bind(this));
+			$(element).find('.previous').on("click",this.previous.bind(this));
 		};
 
 		window.Slide = Slide;

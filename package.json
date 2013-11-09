@@ -1,5 +1,5 @@
 {
-  "name": "page-slide-and-fade",
+  "name": "pagefx",
   "version": "0.0.0",
   "description": "Mobile slide and fade POC using hardward accelerated CSS",
   "main": "index.html",

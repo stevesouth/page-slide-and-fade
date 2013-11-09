@@ -5,6 +5,25 @@ Tiny utility to enable a nice slide, fade, scaling page animation a found in fli
 
 ## To Use
 
+Simply clone the repo, index.html should work.
+
+## Detailed setup instructions...
+
+Include modernizr, jquery and the pagefx files. I can easily remove the jquery and modernizr dependencies if this turns in to more than a demo.
+
+```
+<script src="thirdparty/modernizr-2.6.2.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="dist/pagefx.js"></script>
+```
+
+Include the css
+
+```
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/main.css">
+```
+
 Structure you html like so..
 
 ```
@@ -26,4 +45,4 @@ Then create the Slide object passing in an element that holds the html above. e.
 var slider = new Slide(document.body);
 ```
 
-The previous and next buttons should be clickable and proide a rather delightful transition.
+The previous and next buttons should be clickable and provide a rather delightful transition.

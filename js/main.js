@@ -5,16 +5,21 @@
 			this.pages = element.getElementsByClassName("page");
 			this.selected = 0;
 			this._position();
+			this._initControls(element);
 		};
 
 		Slide.prototype.next = function() {
-			this.selected = this.selected + 1;
-			this._position();
+			if (this.selected + 1 < this.pages.length) {
+				this.selected = this.selected + 1;
+				this._position();
+			}
 		}
 
 		Slide.prototype.previous = function() {
-			this.selected = this.selected - 1;
-			this._position();
+			if (this.selected - 1 >= 0) {
+				this.selected = this.selected - 1;
+				this._position();
+			}
 		}
 
 		Slide.prototype._position = function() {
@@ -42,6 +47,16 @@
 		Slide.prototype._hideToRight = function(page) {
 			page.style.webkitTransform = "translate(100%,0) scale(1,1)";
 			page.style.opacity = "1";
+		};
+
+		Slide.prototype._initControls = function(element) {
+			$(element).find('.previous').on("click", function() {
+				this.previous();
+			}.bind(this));
+
+			$(element).find('.next').on("click", function() {
+				this.next();
+			}.bind(this));
 		};
 
 		window.Slide = Slide;

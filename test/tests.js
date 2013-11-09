@@ -31,16 +31,23 @@ test('Pages initialised correctly', function() {
 	var slide = new Slide(document.body);
 	var pages = $('.fixture').find('.page');
 	assertPageState([
-		"visible",
-		"outright",
-		"outright",
-		"outright",
-		"outright"
+		STATE.visible,
+		STATE.outright,
+		STATE.outright,
+		STATE.outright,
+		STATE.outright
 	], pages);
 });	
 
+STATE = {
+	visible: "translate(0px, 0px) scale(1, 1)",
+	faded: "translate(0px, 0px) scale(0.95, 0.95)",
+	outright: "translate(100%, 0px) scale(1, 1)"
+};
+
 function assertPageState(states, pages) {
 	equal(pages.length, states.length, "Incorrect number of pages found");
-
-	//for (var i = )
+	pages.each(function(index, page) {
+		equal(states[index], page.style[Modernizr.prefixed('transform')], "Incorrect page state at page index " + index);
+	});
 }

@@ -13,7 +13,7 @@ Simply clone the repo, index.html should work.
 
 ## Detailed setup instructions...
 
-Include modernizr, jquery and the pagefx files. I can easily remove the jquery and modernizr dependencies if this turns in to more than a demo.
+Include modernizr, jquery and the pagefx files. I can easily remove the jquery and modernizr dependencies if anyone asks.
 
 ```
 <script src="thirdparty/modernizr-2.6.2.min.js"></script>

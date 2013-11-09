@@ -5,7 +5,7 @@ Tiny utility to enable a nice slide, fade, scaling page animation a found in fli
 
 ## Instant Demo
 
-http://htmlpreview.github.io/?https://github.com/stevesouth/page-slide-and-fade/blob/master/index.html
+https://rawgithub.com/stevesouth/page-slide-and-fade/master/index.html
 
 ## To Use
 

@@ -1,6 +1,8 @@
 page-slide-and-fade
 ===================
 
+[![Build Status](https://travis-ci.org/stevesouth/page-slide-and-fade.png?branch=master)](https://travis-ci.org/stevesouth/page-slide-and-fade)
+
 ## Instant Demo
 
 https://rawgithub.com/stevesouth/page-slide-and-fade/master/index.html

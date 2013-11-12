@@ -35,17 +35,17 @@
 		}
 
 		Slide.prototype._fadeOut = function(page) {
-			page.style[Modernizr.prefixed('transform')] = "translate(0,0) scale(0.95,0.95)";
+			page.style[Modernizr.prefixed('transform')] = "translate3d(0,0,0) scale(0.95,0.95)";
 			page.style.opacity = "0.7";
 		};
 
 		Slide.prototype._show = function(page) {
-			page.style[Modernizr.prefixed('transform')] = "translate(0,0) scale(1,1)";
+			page.style[Modernizr.prefixed('transform')] = "translate3d(0,0,0) scale(1,1)";
 			page.style.opacity = "1";
 		};
 
 		Slide.prototype._hideRight = function(page) {
-			page.style[Modernizr.prefixed('transform')] = "translate(100%,0) scale(1,1)";
+			page.style[Modernizr.prefixed('transform')] = "translate3d(100%,0,0) scale(1,1)";
 			page.style.opacity = "0.9";
 		};
 

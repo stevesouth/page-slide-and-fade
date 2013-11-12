@@ -197,9 +197,9 @@ test('Next and previous buttons', function() {
  */
 
 STATE = {
-	visible: "translate(0px, 0px) scale(1, 1)",
-	faded: "translate(0px, 0px) scale(0.95, 0.95)",
-	outright: "translate(100%, 0px) scale(1, 1)"
+	visible: "translate3d(0px, 0px, 0px) scale(1, 1)",
+	faded: "translate3d(0px, 0px, 0px) scale(0.95, 0.95)",
+	outright: "translate3d(100%, 0px, 0px) scale(1, 1)"
 };
 
 function assertPageState(states, pages, extra) {

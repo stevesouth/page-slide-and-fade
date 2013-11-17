@@ -9,7 +9,7 @@ https://rawgithub.com/stevesouth/page-slide-and-fade/master/index.html
 
 ## Description
 
-Tiny utility to enable a nice slide, fade and scale page animation a found in flipboard and other apps. Only hardware accelerated transitions are used so it should all be nice and smooth even on mobile devices.
+Tiny utility to enable a nice slide, fade and scale page animation as found in flipboard and other apps. Only hardware accelerated transitions are used so it should all be nice and smooth even on mobile devices.
 
 Tested and working well on:
 * Desktop: chrome, firefox and IE11
